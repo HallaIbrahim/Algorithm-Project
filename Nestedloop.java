@@ -1,7 +1,5 @@
 import java.util.*;
 
-// class job that holds id ,deadline , profit values
-
 // initialize slots array of size max deadline and all it's elements equal zero
 int[]slots=new int[maxDeadline];
 
