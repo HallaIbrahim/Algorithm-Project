@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+// Header file that includes all the standard libraries.
+using namespace std;
+// This struct defines a job with a start time, end time, and profit.
+struct Job {
+    int start;
+    int end;
+    int profit;
+};
+// This function compares two jobs by their end times.
+bool compare(Job a, Job b) {
+    return a.end < b.end;
+}
