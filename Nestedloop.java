@@ -1,5 +1,5 @@
 import java.util.*;
-
+ 
 // initialize slots array of size max deadline and all it's elements equal zero
 int[]slots=new int[maxDeadline];
 
